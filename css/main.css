@@ -1,0 +1,277 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header {
+background: #F1F1F1;
+padding-top: 46px;
+}
+
+.container {
+    max-width: 1230px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000; 
+    padding-right: 12px;
+    padding-bottom: 3px;
+    line-height: 1;
+    
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+/* nav */
+
+.nav-list {
+display: flex;
+column-gap: 50px;
+font-weight: 500;
+font-size: 14px;
+}
+
+.nav-button {
+    display: none;
+}
+
+/* .nav-item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    
+} */
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 76px;
+    column-gap: 30px;
+}
+
+.header-content {
+    max-width:500px ;
+}
+
+.header-heading {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 66px;
+color: #000000;
+margin-bottom: 20px;
+padding-top: 98px;
+
+}
+
+.header-heading2 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 200%;
+color: #000000;
+}
+
+/* Service */
+
+.services {
+padding-top: 90px;
+padding-bottom: 90px;
+}
+
+
+
+.services-row {
+display: flex;
+justify-content: space-between;
+row-gap: 60px;
+flex-wrap: wrap;
+}
+
+
+/* .services-card {
+    flex:1 1 0;
+    min-width: 315px;
+} */
+
+.services-card-img {
+margin-bottom: 30px;
+}
+
+.services-card-title {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 10px;
+}
+
+.services-card-title2 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 200%;
+color: #000000;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding-top: 90px;
+    background: #F1F1F1;
+    padding-bottom: 90px;
+}
+
+.portfolio-title {
+text-align: center;
+margin-bottom: 70px;
+}
+
+.title-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color: #070707;
+}
+
+.project {
+text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.project-title a {
+    color: #070707;   
+}
+
+/* Contact */
+
+.contacts {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.contacts-title {
+    padding-bottom: 40px;
+}
+
+.contacts-content {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #070707;
+padding-bottom: 40px;
+}
+
+.contacts-button {
+    padding: 7px 22px;
+    border-radius: 30px;
+    background: #070707;
+    margin-bottom: 80px;
+    transition: 0.2s ease-in, top 0.2s ease-in;
+}
+
+.contacts-button:hover, .contacts-button:focus {
+background-color: #606060;
+}
+
+.contacts-button:active {
+    position: relative;
+    top: 1px;
+    background-color: #000000;
+}
+
+.contacts-shrift {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    margin-bottom: 40px;   
+}
+
+.contacts-footer {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #828282;
+}
